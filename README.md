@@ -1,6 +1,6 @@
 # facemaker-fm1
 
-A comprehensive toolkit for hardware-accelerated face swapping in images and videos using TensorFlow and Torch machine learning frameworks.
+A comprehensive toolkit for hardware-accelerated face swapping in images and videos using TensorFlow and PyTorch machine learning frameworks.
 
 ## Features
 
