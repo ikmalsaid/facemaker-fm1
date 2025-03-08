@@ -1,0 +1,14 @@
+gradio==4.38.1
+fastapi==0.112.4
+tensorflow==2.10
+tensorflow-addons==0.17.1
+torch
+torchvision
+opencv-python-headless
+moviepy==1.0.3
+colorpaws
+pyyaml
+scipy
+numpy<2
+scikit-image
+flask
