@@ -11,7 +11,7 @@ from PIL import Image
 from tqdm import tqdm
 import tensorflow as tf
 from datetime import datetime
-from colorpaws import setup_logger
+from colorpaws import configure
 from keras.models import load_model
 from scipy.ndimage import gaussian_filter
 from scripts.layers import AdaIN, AdaptiveAttention
@@ -31,7 +31,7 @@ class FacemakerFM1:
             mode (str): The mode to run the class in. Can be 'default', 'api' or 'webui'.
         """
         # Initialize logging
-        self.logger = setup_logger(self.__class__.__name__, log_on=True)
+        self.logger = configure(self.__class__.__name__, log_on=True)
         
         # Configure environment
         warnings.filterwarnings('ignore')
