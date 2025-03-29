@@ -79,7 +79,7 @@ Start the Gradio web interface:
 fm = FacemakerFM1(mode='webui')
 # OR
 fm.start_webui(
-    host="0.0.0.0",
+    host="localhost",
     port=7860,
     browser=True,
     upload_size="10MB",
@@ -97,7 +97,7 @@ fm = FacemakerFM1(mode='api')
 # OR
 fm.start_api(
     host="0.0.0.0",
-    port=3223,
+    port=5000,
     debug=False
 )
 ```
